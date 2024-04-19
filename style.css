@@ -1,14 +1,67 @@
 .container {
-    width:1000px;
-    background-color: aqua;
+    width:90%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
 }
 
+input {
+    display: block;
+    margin:auto;
+}
 
 .logo-img {
-    width: 250px;
+    width: 350px;
 }
 
 .action-buttons {
-    padding: 10px;
-    background-color: gray;
+    padding: 5px;
+    background-color: buttonface;
+    color:buttontext;
+    text-align: center;
+    border: 1.5px solid;
+    border-color: rgb(145, 145, 145);
+    height: 25px;
+}
+
+.search-area {
+    background-color: rgb(238, 238, 238);
+   
+}
+
+.bottom-menu-area {
+    height: 75px;
+    margin:0;
+}
+
+.bottom-menu {
+    float: left;
+    margin:0 5px 0 0;
+    list-style-type: none;
+    background-color: rgb(126, 229, 218);
+    height: 75px;
+    text-align: center;
+    padding: 5px;
+    width:31.2%;
+}
+
+.dark-green-bg {
+    background-color:#62B3AA;
+    
+}
+
+
+a {
+    color:blue;
+    font-size: 14px;
+}
+
+p {
+    margin:5px;
+}
+
+.search-input {
+    width: 40%;
 }
