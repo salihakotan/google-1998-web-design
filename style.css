@@ -1,0 +1,14 @@
+.container {
+    width:1000px;
+    background-color: aqua;
+}
+
+
+.logo-img {
+    width: 250px;
+}
+
+.action-buttons {
+    padding: 10px;
+    background-color: gray;
+}
